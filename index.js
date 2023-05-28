@@ -21,11 +21,11 @@ btn_cast.onclick = fun_cast;
 function fun_cast(){
 	let coin = Math.floor(Math.random() * 2);
 	if(coin == 0){
-		img_coin.src = '/img/ru_orel.png'
+		img_coin.src = 'img/ru_orel.png'
 		text_coin.innerText = "Выпал орел"
 	}
 	else{
-		img_coin.src = '/img/ru_reshka.png'
+		img_coin.src = 'img/ru_reshka.png'
 		text_coin.innerText = "Выпала решка"
 	}
 }
